@@ -8,6 +8,8 @@ end
 
 require 'rails_helper'
 
+# This codes goes through to test that there
+# options for each case.
 RSpec.feature "Projects", type: :feature do
   context "Create new project" do
     before(:each) do

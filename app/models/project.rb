@@ -1,3 +1,5 @@
 class Project < ApplicationRecord
-    validates_presence_of :title, :description
+    # This part validates that a title and description is entered
+    # when creating a project in the portfolio
+    validates_presence_of :title, :description 
 end
